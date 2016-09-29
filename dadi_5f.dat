@@ -1,0 +1,5 @@
+# Esempio con 4 dadi a 4 facce
+set NODES = a b c d e f g h i k l m n o p q r s t u;
+set DICES = d1 d2 d3 d4;
+set WORDS = akeh nuto fega bonh kehs gafc qmig bhps mqer pbod gcba tnus;
+param FACES = 5;

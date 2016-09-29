@@ -1,0 +1,5 @@
+# Esempio con 4 dadi a 6 facce
+set NODES := a b c d e f g h i k l m n o p q r s t u v w x z ;
+set WORDS := aghi bove club drop ezio mick nave quad slam taeg tufo york ;
+set DICES := d1 d2 d3 d4 ;
+

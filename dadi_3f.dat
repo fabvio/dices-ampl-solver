@@ -1,0 +1,5 @@
+# Esempio con 3 dadi a 3 facce
+set NODES = a b c d e f g h i ;
+set DICES = d1 d2 d3;
+set WORDS = acb hde icg abf ehf ceh idb hfe gad;
+param FACES = 3;

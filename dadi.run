@@ -1,0 +1,14 @@
+reset;
+option solver cplex;
+model dadi.mod;
+data dadi.dat;
+solve;
+for {z in DICES}{
+	printf "%s:", z >> dadi.out;
+	for{i in NODES}{
+		if x[i,z] = 1 then printf "\t%c", i >> dadi.out;
+	}
+	printf "\n" >> dadi.out;
+}
+printf "\n" >> dadi.out;
+close dadi.out;
